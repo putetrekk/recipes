@@ -1,0 +1,7 @@
+
+site:
+  title: Recipes
+  description: Recipes of Sjolander
+  base_url: http://recipes.sjolander.no
+posts:
+  rss: rss.xml
