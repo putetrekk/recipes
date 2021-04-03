@@ -5,3 +5,4 @@ site:
   base_url: http://recipes.sjolander.no
 posts:
   rss: rss.xml
+  publish_date_in_filename: false

@@ -1,10 +1,9 @@
 ---
-layout: default.liquid
-
 title: Pizza Dough
-is_draft: true
+published_date: "2021-04-03 13:07:44 +0000"
+layout: default.liquid
+is_draft: false
 ---
-
 # {{page.title}}
 
 Makes 4 small pizza doughs. Great for thin baking stone/steel pizza.
