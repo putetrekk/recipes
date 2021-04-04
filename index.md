@@ -4,6 +4,10 @@ layout: default.liquid
 ## Recipes!
 
 {% for post in collections.posts.pages %}
-<img class="slit" src="/img/placeholder.jpg" alt="{{ post.title }} illustrative image" href={{ post.permalink }}><br>
-[{{ post.title }}]({{ post.permalink }})
+<div class="recipe-listing">
+<a href={{ post.permalink }}>
+<img class="slit" src="{{ post.data.image }}" alt="{{ post.title }} illustrative image" />
+{{ post.title }}
+</a>
+</div>
 {% endfor %}

@@ -1,10 +1,9 @@
 ---
-layout: default.liquid
-
+layout: recipe.liquid
 title: First Post
 is_draft: true
+data: {image: /img/placeholder.jpg}
 ---
-
 # {{page.title}}
 
 Brief recipe description. What is the food? How many does it typically feed?
