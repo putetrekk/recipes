@@ -2,7 +2,8 @@
 layout: recipe.liquid
 title: First Post
 is_draft: true
-data: {image: /img/placeholder.jpg}
+data:
+  image: /img/placeholder.jpg
 ---
 # {{page.title}}
 

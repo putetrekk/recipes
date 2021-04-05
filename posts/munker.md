@@ -3,7 +3,8 @@ title: Munker
 published_date: "2021-04-03 13:11:50 +0000"
 layout: recipe.liquid
 is_draft: false
-data: {image: /img/placeholder.jpg}
+data: 
+  image: /img/placeholder.jpg
 ---
 # {{page.title}}
 
