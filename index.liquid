@@ -1,0 +1,12 @@
+---
+layout: index.liquid
+---
+<h1>Recipes!</h1>
+{% for post in collections.posts.pages %}
+    <div class="recipe-listing">
+        <a href={{ post.permalink }}>
+            <img class="slit" src="{{ post.data.image }}" alt="{{ post.title }} illustrative image" />
+        </a>
+        <p class="recipe-listing-name">{{ post.title }}</p>
+    </div>
+{% endfor %}
