@@ -6,8 +6,6 @@ is_draft: false
 data:
   image: /img/chicken-alfredo-fettucine.jpg
 ---
-# {{page.title}}
-
 Pasta Dinner
 
 ## Ingredients

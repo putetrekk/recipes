@@ -6,8 +6,6 @@ is_draft: false
 data: 
   image: /img/elizabeths-karbonader.jpg
 ---
-# {{page.title}}
-
 Elizabeths karbonadeoppskrift
 
 ## Ingredients

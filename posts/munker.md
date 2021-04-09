@@ -6,8 +6,6 @@ is_draft: false
 data: 
   image: /img/placeholder.jpg
 ---
-# {{page.title}}
-
 Tradisjonelt norsk/dansk bakverk. Små runde boller med salt og sprø skorpe. Oppskriften gir 20-30 munker
 
 ## Ingredients

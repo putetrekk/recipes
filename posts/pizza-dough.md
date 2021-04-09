@@ -6,8 +6,6 @@ is_draft: false
 data:
   image: /img/placeholder.jpg
 ---
-# {{page.title}}
-
 Makes 4 small pizza doughs. Great for thin baking stone/steel pizza.
 
 ## Ingredients
