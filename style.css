@@ -18,6 +18,21 @@
     margin-top: 1em
 }
 
+.recipe-listing {
+    position: relative;
+    margin-top: 0.2em
+}
+
+.recipe-listing-name{
+  bottom: 0.05em;
+  left: 16px;
+  position: absolute;
+  text-align: left;
+  font-weight: bolder;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+}
+
 html {
     font-family: Verdana, sans-serif;
     background-color: #ffffff;
