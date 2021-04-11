@@ -15,7 +15,7 @@ Tradisjonelt norsk/dansk bakverk. Små runde boller med salt og sprø skorpe. Op
 - 5.5 dl mel
 - 4 ts bakepulver
 - 2.5 dl kefir
-- smør til steking
+- 200g smør til steking
 
 ## Directions
 
