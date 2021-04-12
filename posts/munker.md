@@ -4,9 +4,9 @@ published_date: "2021-04-03 13:11:50 +0000"
 layout: recipe.liquid
 is_draft: false
 data: 
-  image: /img/placeholder.jpg
+  image: /img/munker.jpg
 ---
-Tradisjonelt norsk/dansk bakverk. Små runde boller med salt og sprø skorpe. Oppskriften gir 20-30 munker
+Tradisjonelt norsk/dansk bakverk. Små runde boller med salt og sprø skorpe. Oppskriften gir ca. 50 små munker
 
 ## Ingredients
 
