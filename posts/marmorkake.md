@@ -10,14 +10,14 @@ Marmorkake
 
 ## Ingredients
 
--300 g smør
--5 dl sukker
--6 egg
--6 dl hvetemel
--2 ts bakepulver
--2 dl melk
--3 ss kakao
--2 ts vaniljesukker
+- 300 g smør
+- 5 dl sukker
+- 6 egg
+- 6 dl hvetemel
+- 2 ts bakepulver
+- 2 dl melk
+- 3 ss kakao
+- 2 ts vaniljesukker
 
 ## Directions
 
