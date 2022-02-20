@@ -12,12 +12,12 @@ Grunnoppskrift cookies
 
 - 3 dl sukker
 - 100g brunt sukker
-- 120g smør
+- 125g smør
 - 2 tsp vaniljesukker
 
 - 1 egg
 
-- 225g hvetemel
+- 200g hvetemel
 - 1 tsp bakepulver
 - 2 kryddermål salt
 
@@ -32,3 +32,5 @@ Grunnoppskrift cookies
 5. Rør inn bitene du vil ha i cookiene
 
 ## Notes
+
+Sett ut smøret noen timer i forveien, så blir det mye lettere å jobbe med
