@@ -12,12 +12,12 @@ Grunnoppskrift cookies
 
 - 250g sukker
 - 100g brunt sukker
-- 125g smør
+- 150g smør
 - 2 tsp vaniljesukker
 
 - 2 egg
 
-- 225g hvetemel
+- 250g hvetemel
 - 1 tsp bakepulver
 - 2 kryddermål salt
 
