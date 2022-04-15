@@ -8,7 +8,7 @@ data:
 ---
 Amerikanske brownies med mandelbiter
 
-## Ingredients
+## Ingredienser
 
 - 2 dl sukker
 - 100 g smør
@@ -18,9 +18,11 @@ Amerikanske brownies med mandelbiter
 - 1 ts bakepulver
 - 1 dl mandler/hasselnøtter
 
-## Directions
+## Fremgangsmåte
 
-1. Pisk smør og sukker til det er hvitt
-2. Rør inn egg
-3. Smelt og rør inn kokesjokolade
-4. Rør inn hvetemel, bakepulver og nøtter.
+1. Sett ovnen på 180℃
+2. Pisk smør og sukker til det er hvitt
+3. Rør inn egg
+4. Smelt og rør inn kokesjokolade
+5. Rør inn hvetemel, bakepulver og nøtter
+6. Fordel i en 20 x 30 cm form og stek i 20 minutter
