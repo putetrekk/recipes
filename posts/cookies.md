@@ -17,7 +17,7 @@ Grunnoppskrift cookies
 
 - 2 egg
 
-- 250g hvetemel
+- 300g hvetemel
 - 1 tsp bakepulver
 - 2 kryddermål salt
 
@@ -25,11 +25,13 @@ Grunnoppskrift cookies
 
 ## Directions
 
-1. Sett ovn på 180℃ over- og undervarme
+1. Sett ovn på 190℃ over- og undervarme
 2. Bland sukker, brunt sukker, smør og vaniljesukker til luftig
 3. Rør inn egg.
 4. Rør inn mel, bakepulver og salt.
 5. Rør inn bitene du vil ha i cookiene
+6. Fordel i små klumper utover brett med bakepapir
+7. Stek i ovnen, 11-13 minutter, til gyllenbrune
 
 ## Notes
 
