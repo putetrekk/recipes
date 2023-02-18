@@ -26,12 +26,13 @@ Grunnoppskrift cookies
 ## Directions
 
 1. Sett ovn på 190℃ over- og undervarme
-2. Bland sukker, brunt sukker, smør og vaniljesukker til luftig
-3. Rør inn egg.
-4. Rør inn mel, bakepulver og salt.
-5. Rør inn bitene du vil ha i cookiene
-6. Fordel i små klumper utover brett med bakepapir
-7. Stek i ovnen, 11-13 minutter, til gyllenbrune
+2. Bland sukker og smør til luftig
+3. Rør inn brunt sukker og vaniljesukker
+4. Rør inn egg
+5. Rør inn mel, bakepulver og salt
+6. Rør inn bitene du vil ha i cookiene
+7. Fordel i små klumper utover brett med bakepapir
+8. Stek i ovnen, 11-13 minutter, til gyllenbrune
 
 ## Notes
 
