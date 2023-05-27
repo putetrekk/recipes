@@ -24,7 +24,7 @@ Raskt måltid med ris, grønnsaker og kjøttdeig
 - 300 g gulrot
 - lettsyltet agurk
 - grovhakkede peanøtter
-- chilimajones
+- chilimajones (1:5 sriracha:majones (etter vekt) er et greit utgangspunkt, men juster etter ønske)
 
 ## Anvisning
 
