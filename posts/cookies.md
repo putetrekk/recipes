@@ -12,7 +12,7 @@ Grunnoppskrift cookies
 
 - 250g sukker
 - 100g brunt sukker
-- 150g smør
+- 170g romstemperert smør
 - 2 tsp vaniljesukker
 
 - 2 egg
@@ -21,7 +21,10 @@ Grunnoppskrift cookies
 - 1 tsp bakepulver
 - 2 kryddermål salt
 
-- whatever biter
+Foreslåtte biter
+- 150g cashewnøtter
+- 100g mørk kokesjokolade
+- 100g lys kokesjokolade
 
 ## Directions
 
@@ -31,8 +34,9 @@ Grunnoppskrift cookies
 4. Rør inn egg
 5. Rør inn mel, bakepulver og salt
 6. Rør inn bitene du vil ha i cookiene
-7. Fordel i små klumper utover brett med bakepapir
-8. Stek i ovnen, 11-13 minutter, til gyllenbrune
+7. Kjøl ned deigen i kjøleskap eller tilsvarende
+8. Fordel i små klumper utover brett med bakepapir
+9. Stek i ovnen, 11-13 minutter, til gyllenbrune
 
 ## Notes
 
