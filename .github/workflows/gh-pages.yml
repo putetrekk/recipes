@@ -31,4 +31,4 @@ jobs:
           git switch --create gh-pages
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
-          git push
+          git push --set-upstream origin gh-pages
