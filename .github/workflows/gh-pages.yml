@@ -33,7 +33,6 @@ jobs:
           git stash --include-untracked
           git fetch --all
           git switch -c gh-pages
-          git rm -r ./docs
           git stash pop
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
