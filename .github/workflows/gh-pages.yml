@@ -19,5 +19,14 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Cobalt deploy gh-pages
-        uses: saidgeek/cobalt-deploy-gh-pages@v1.0.0
+      - uses: actions/checkout@v3
+      - name: Install cobalt
+        run: curl -LSfs https://raw.githubusercontent.com/crate-ci/gh-install/master/v1/install.sh | sh -s -- --git cobalt-org/cobalt.rs --crate cobalt
+      - name: Build site
+        run: cobalt build
+      - name: Deploy
+        run: |
+          git switch gh-pages
+          git add -A
+          git commit -m "Deploy GitHub Pages for recipes"
+          git push
