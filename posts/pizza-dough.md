@@ -4,7 +4,7 @@ published_date: "2021-04-03 13:07:44 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: /img/placeholder.jpg
+  image: ./img/placeholder.jpg
 ---
 Makes 4 small pizza doughs. Great for thin baking stone/steel pizza.
 
