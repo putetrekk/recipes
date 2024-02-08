@@ -23,7 +23,7 @@ jobs:
       - name: Install cobalt
         run: curl -LSfs https://raw.githubusercontent.com/crate-ci/gh-install/master/v1/install.sh | sh -s -- --git cobalt-org/cobalt.rs --crate cobalt
       - name: Build site
-        run: cobalt build
+        run: cobalt build --destination ./build/
       - name: Deploy
         run: |
           git config user.name "${GITHUB_ACTOR}"
