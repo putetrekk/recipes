@@ -1,2 +1,23 @@
-- name: Cobalt deploy gh-pages
-  uses: saidgeek/cobalt-deploy-gh-pages@v1.0.0
+name: Deploy GH pages
+
+on:
+  push:
+    branches: ["master", "cicd-impl"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cobalt deploy gh-pages
+        uses: saidgeek/cobalt-deploy-gh-pages@v1.0.0
