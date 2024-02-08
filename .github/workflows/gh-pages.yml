@@ -1,0 +1,37 @@
+name: Deploy GH pages
+
+on:
+  push:
+    branches: ["master", "cicd-impl"]
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install cobalt
+        run: curl -LSfs https://raw.githubusercontent.com/crate-ci/gh-install/master/v1/install.sh | sh -s -- --git cobalt-org/cobalt.rs --crate cobalt
+      - name: Set Git Config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - name: Build site
+        run: cobalt build --destination ./docs/
+      - name: Deploy
+        run: |
+          git fetch --all
+          git checkout -b gh-pages
+          git add -A
+          git commit -m "Deploy GitHub Pages for recipes"
+          git push -u origin gh-pages --force-with-lease

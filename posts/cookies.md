@@ -4,7 +4,7 @@ published_date: "2022-02-20 12:45:46 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: /img/cookies.jpg
+  image: ./img/cookies.jpg
 ---
 Grunnoppskrift cookies
 

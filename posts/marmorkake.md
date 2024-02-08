@@ -4,7 +4,7 @@ published_date: "2022-01-28 15:02:42 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: /img/placeholder.jpg
+  image: ./img/placeholder.jpg
 ---
 Marmorkake
 

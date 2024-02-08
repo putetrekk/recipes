@@ -4,7 +4,7 @@ published_date: "2022-04-15 19:18:35 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: /img/placeholder.jpg
+  image: ./img/placeholder.jpg
 ---
 Amerikanske brownies med mandelbiter
 
