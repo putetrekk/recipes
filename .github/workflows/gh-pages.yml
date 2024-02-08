@@ -27,13 +27,13 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - name: Build site
-        run: cobalt build --destination ./build/
+        run: cobalt build --destination ./docs/
       - name: Deploy
         run: |
           git stash --include-untracked
           git fetch --all
-          git switch gh-pages
-          git rm -r ./build
+          git switch -c gh-pages
+          git rm -r ./docs
           git stash pop
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
