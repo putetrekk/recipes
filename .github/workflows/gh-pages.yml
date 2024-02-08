@@ -32,6 +32,9 @@ jobs:
         run: cobalt build --destination ./build/
       - name: Deploy
         run: |
+          git status
           git add -A
+          git status
           git commit -m "Deploy GitHub Pages for recipes"
+          git status
           git push
