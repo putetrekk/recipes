@@ -26,18 +26,15 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      - name: Checkout gh-pages
-        run: |
-          git fetch --all
-          git checkout gh-pages
       - name: Build site
         run: cobalt build --destination ./build/
       - name: Deploy
         run: |
-          git status
+          git stash
+          git fetch --all
+          git switch gh-pages
+          git stash pop
           git add -A
-          git status
           git commit -m "Deploy GitHub Pages for recipes"
-          git status
           git push
   
