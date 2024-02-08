@@ -33,7 +33,7 @@ jobs:
           git stash --include-untracked
           git fetch --all
           git switch -c gh-pages --track origin/gh-pages
-          git clean --destination ./docs/
+          cobalt clean --destination ./docs/
           git stash pop
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
