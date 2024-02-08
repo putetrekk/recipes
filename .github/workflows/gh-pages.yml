@@ -26,7 +26,7 @@ jobs:
         run: cobalt build
       - name: Deploy
         run: |
-          git switch gh-pages
+          git switch --create gh-pages
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
           git push
