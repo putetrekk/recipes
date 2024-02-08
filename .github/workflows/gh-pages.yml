@@ -30,7 +30,7 @@ jobs:
         run: cobalt build --destination ./build/
       - name: Deploy
         run: |
-          git stash
+          git stash --include-untracked
           git fetch --all
           git switch gh-pages
           git rm -r ./build
