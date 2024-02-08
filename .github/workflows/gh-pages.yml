@@ -31,7 +31,7 @@ jobs:
       - name: Deploy
         run: |
           git fetch --all
-          git switch -c gh-pages --track origin/gh-pages
+          git checkout -b gh-pages --track origin/gh-pages
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
           git push --force-with-lease
