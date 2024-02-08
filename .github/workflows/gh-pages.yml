@@ -33,6 +33,7 @@ jobs:
           git stash
           git fetch --all
           git switch gh-pages
+          git rm -r ./build
           git stash pop
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
