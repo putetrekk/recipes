@@ -30,6 +30,7 @@ jobs:
         run: cobalt build --destination ./docs/
       - name: Deploy
         run: |
+          git fetch --all
           git switch -c gh-pages --track origin/gh-pages
           git add -A
           git commit -m "Deploy GitHub Pages for recipes"
