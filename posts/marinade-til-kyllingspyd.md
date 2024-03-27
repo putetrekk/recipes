@@ -4,7 +4,7 @@ published_date: "2021-07-16 18:41:08 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: ./img/placeholder.jpg
+  image: ../img/placeholder.jpg
 ---
 Frisk og smakfull marinade for grilling av kyllingspyd. Passer til ca 650g kylling.
 

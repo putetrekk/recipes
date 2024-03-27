@@ -4,7 +4,7 @@ published_date: "2022-06-15 20:19:36 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: ./img/hoisinstekt-kjottdeig.jpg
+  image: ../img/hoisinstekt-kjottdeig.jpg
 ---
 Raskt måltid med ris, grønnsaker og kjøttdeig
 
