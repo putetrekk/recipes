@@ -4,7 +4,7 @@ published_date: "2021-04-04 15:11:56 +0000"
 layout: recipe.liquid
 is_draft: false
 data: 
-  image: ../img/elizabeths-karbonader.jpg
+  image: elizabeths-karbonader.jpg
 ---
 Elizabeths karbonadeoppskrift
 

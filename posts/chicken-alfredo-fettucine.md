@@ -4,7 +4,7 @@ published_date: "2021-04-05 13:50:27 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: ../img/chicken-alfredo-fettucine.jpg
+  image: chicken-alfredo-fettucine.jpg
 ---
 Pasta Dinner
 

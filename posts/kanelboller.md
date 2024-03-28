@@ -4,7 +4,7 @@ published_date: "2024-02-03 17:34:55 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: ../img/placeholder.jpg
+  image: placeholder.jpg
 ---
 Enkle kanelboller
 
