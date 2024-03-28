@@ -14,10 +14,20 @@
   </head>
   <body>
     <header>
-      Recipes!
-      <ul>
-        <li><a href="../index.html">Hjem</a></li>
-      </ul>
+      <div class="navbar">
+        <a href="../index.html">Hjem</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Oppskrifter
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            {% for post in collections.posts.pages %}
+            <a href="../{{ post.permalink }}">{{ post.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
     </header>
     <div class="content-wrapper">
       <div class="content is-center content-custom">
