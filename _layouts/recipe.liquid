@@ -14,19 +14,28 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <a href="../index.html">Hjem</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            <i>&#x1f4da</i>
-            Oppskrifter
-          </button>
-          <div class="dropdown-content">
-            {% for post in collections.posts.pages %}
-            <a href="../{{ post.permalink }}">{{ post.title }}</a>
-            {% endfor %}
-          </div>
-        </div>
+      <div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="../index.html">
+              <i>&#x1f3e0</i>
+              Hjem
+            </a>
+          </li>
+          <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            <a href="#" class="pure-menu-link">
+              <i>&#x1f4da</i>
+              Oppskrifter
+            </a>
+            <ul class="pure-menu-children">
+              {% for post in collections.posts.pages %}
+              <li class="pure-menu-item">
+                <a class="pure-menu-link" href="../{{ post.permalink }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
       </div>
     </header>
     <div class="content-wrapper">
