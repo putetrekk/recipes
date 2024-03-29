@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #872a32;
-    --primary-color-light:#cf636c;
-    --secondary-color: #2a7c87;
-    --white: #ffffff; 
-  }
+  --primary-color: #872a32;
+  --primary-color-light: #cf636c;
+  --secondary-color: #2a7c87;
+  --white: #ffffff;
+}
 
 .content-custom {
   max-width: 40em;
@@ -74,6 +74,11 @@ img {
   background-color: var(--primary-color);
 }
 
+.navbar > a,
+.navbar > .dropdown {
+  border-top: 4px solid var(--primary-color);
+}
+
 .navbar a {
   float: left;
   font-size: 16px;
@@ -99,9 +104,9 @@ img {
   margin: 0;
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  text-decoration: underline;
+.navbar > a:hover,
+.navbar > .dropdown:hover {
+  border-top: 4px solid var(--white);
 }
 
 .dropdown-content {
