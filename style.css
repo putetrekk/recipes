@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #872a32;
-  --primary-color-light: #cf636c;
-  --secondary-color: #2a7c87;
-  --white: #ffffff;
+  --primary: #241D1D;
+  --secondary: #fcda7b;
+  --tertiary: #e19453;
+  --qqq: #a2824c;
+  --ppp: #53524f;
 }
 
 .content-custom {
@@ -14,7 +15,8 @@
 .footer {
   height: 100%;
   max-width: 40em;
-  margin-top: 10em;
+  margin-top: 4em;
+  margin-bottom: 2em;
   position: sticky;
   margin-left: auto;
   margin-right: auto;
@@ -36,26 +38,26 @@
   position: absolute;
   text-align: left;
   font-weight: bolder;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px #000000;
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 html {
   font-family: Verdana, sans-serif;
-  background-color: #ffffff;
-  color: #1a1818;
+  background-color: white;
+  color: var(--primary);
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
-  color: var(--primary-color);
+  color: var(--primary);
 }
 
 a:link {
-  color: #3a8799;
+  color: var(--primary);
 }
 
 a:visited {
-  color: #2a3a3b;
+  color: var(--primary);
 }
 
 img.slit {
@@ -66,4 +68,19 @@ img.slit {
 
 img {
   max-width: 100%;
+}
+
+header > .pure-menu {
+  background-color: var(--secondary);
+  border-bottom: 3px solid var(--primary);
+}
+
+.pure-menu > .pure-menu-list > .pure-menu-item > a {
+  background-color: var(--secondary);
+  padding: 0.5em;
+}
+
+.pure-menu > .pure-menu-list > .pure-menu-item > a:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
 }
