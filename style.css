@@ -1,10 +1,10 @@
 :root {
-  --primary: #241D1D;
-  --secondary: #fcda7b;
-  --tertiary: #e19453;
-  --qqq: #a2824c;
-  --ppp: #53524f;
-  --edge-border: 3px solid var(--primary);
+  --dark: #363034;
+  --light: #EEE5D4;
+  --brand: #9B7562;
+  --accent-light: #C2A572;
+  --accent-dark: #838C95;
+  --edge-border: 3px solid var(--dark);
 }
 
 .content-custom {
@@ -47,19 +47,19 @@
 html {
   font-family: Verdana, sans-serif;
   background-color: white;
-  color: var(--primary);
+  color: var(--dark);
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
-  color: var(--primary);
+  color: var(--dark);
 }
 
 a:link {
-  color: var(--primary);
+  color: var(--dark);
 }
 
 a:visited {
-  color: var(--primary);
+  color: var(--dark);
 }
 
 img.slit {
@@ -73,16 +73,16 @@ img {
 }
 
 header > .pure-menu {
-  background-color: var(--secondary);
+  background-color: var(--light);
   border-bottom: var(--edge-border);
 }
 
 .pure-menu > .pure-menu-list > .pure-menu-item > a {
-  background-color: var(--secondary);
+  background-color: var(--light);
   padding: 0.5em;
 }
 
 .pure-menu > .pure-menu-list > .pure-menu-item > a:hover {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--dark);
+  color: var(--light);
 }
