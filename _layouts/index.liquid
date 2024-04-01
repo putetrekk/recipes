@@ -9,13 +9,38 @@
     <title>Sjolander's Recipes</title>
   </head>
   <body>
+    <header>
+      <div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a class="pure-menu-link" href="../index.html">
+              &#x1f3e0 Hjem
+            </a>
+          </li>
+          <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+            <a href="#" class="pure-menu-link">
+              &#x1f4da Oppskrifter
+            </a>
+            <ul class="pure-menu-children">
+              {% for post in collections.posts.pages %}
+              <li class="pure-menu-item">
+                <a class="pure-menu-link" href="../{{ post.permalink }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
     <div class="content-wrapper">
       <div class="content is-center content-custom">
         {{ page.content }}
       </div>
     </div>
-    <div class="footer">
-      Placeholder Image by <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5204352">congerdesign</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5204352">Pixabay</a>
-    </div>
+    <footer>
+      <div class="footer">
+        Placeholder Image by <a href="https://pixabay.com/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5204352">congerdesign</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5204352">Pixabay</a>
+      </div>
+    </footer>
   </body>
 </html>
