@@ -24,7 +24,7 @@
             <ul class="pure-menu-children">
               {% for post in collections.posts.pages %}
               <li class="pure-menu-item">
-                <a class="pure-menu-link" href="../{{ post.permalink }}">{{ post.title }}</a>
+                <a class="submenu-link pure-menu-link" href="../{{ post.permalink }}">{{ post.title }}</a>
               </li>
               {% endfor %}
             </ul>

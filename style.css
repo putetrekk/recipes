@@ -91,6 +91,15 @@ header > .pure-menu {
   border-bottom: var(--edge-border);
 }
 
+.submenu-link{
+  background-color: var(--brand);
+}
+
+.submenu-link:hover{
+  color: var(--light);
+  background-color: var(--dark);
+}
+
 .pure-menu > .pure-menu-list > .pure-menu-item > a {
   background-color: var(--brand);
   padding: 0.5em;
