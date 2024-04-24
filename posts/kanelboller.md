@@ -4,7 +4,7 @@ published_date: "2024-02-03 17:34:55 +0000"
 layout: recipe.liquid
 is_draft: false
 data:
-  image: placeholder.jpg
+  image: kanelboller.jpg
 ---
 Enkle kanelboller
 
@@ -20,7 +20,7 @@ Enkle kanelboller
 - 2 store egg
 
 ### Fyll:
-- 100g meierismør, mykt
+- 130g meierismør, mykt
 - 150g brunt sukker
 - 2 ss malt kanel
 
