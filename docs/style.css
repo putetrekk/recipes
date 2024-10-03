@@ -1,0 +1,111 @@
+:root {
+  --dark: #211F26;
+  --light: #F3EDE8;
+  --brand: #C64D2F;
+  --accent-light: #A19893;
+  --accent-dark: #95876F;
+  --edge-border: 3px solid var(--brand);
+}
+
+.content-custom {
+  max-width: 40em;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  height: 100%;
+  max-width: 40em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+  border-top: var(--edge-border);
+}
+
+.recipe-listing {
+  margin-top: 1em;
+}
+
+.recipe-listing {
+  position: relative;
+  margin-top: 0.2em;
+}
+
+.recipe-listing-name {
+  bottom: 0.05em;
+  left: 16px;
+  position: absolute;
+  text-align: left;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+html {
+  font-family: Verdana, sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--dark);
+}
+
+a:link {
+  color: var(--dark);
+}
+
+a:visited {
+  color: var(--dark);
+}
+
+img.slit {
+  object-fit: cover;
+  max-height: 5em;
+  width: 100%;
+}
+
+.recipe-listing .listing-brand-cover {
+  background-color: var(--brand);
+  bottom: 0.7em;
+  height: 2em;
+  width: 0%;
+  transition: width 300ms cubic-bezier(0.08, 1, 0.08, 1);
+  position: absolute;
+}
+
+.recipe-listing:hover .listing-brand-cover {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header > .pure-menu {
+  background-color: var(--brand);
+  border-bottom: var(--edge-border);
+}
+
+.submenu-link{
+  background-color: var(--brand);
+}
+
+.submenu-link:hover{
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+.pure-menu > .pure-menu-list > .pure-menu-item > a {
+  background-color: var(--brand);
+  padding: 0.5em;
+}
+
+.pure-menu > .pure-menu-list > .pure-menu-item > a:hover {
+  background-color: var(--dark);
+  color: var(--light);
+}
