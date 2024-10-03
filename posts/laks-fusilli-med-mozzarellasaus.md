@@ -1,7 +1,8 @@
 ---
 title: Laks Fusilli med Mozzarellasaus
+published_date: 2024-10-03 17:36:14.419762 +0000
 layout: recipe.liquid
-is_draft: true
+is_draft: false
 data:
   image: placeholder.jpg
 ---
