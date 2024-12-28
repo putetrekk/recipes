@@ -6,7 +6,7 @@ is_draft: false
 data:
   image: grytebroed.jpg
 ---
-Lager et lite brød, typisk nok for åtte porsjoner bød (16 tynne skiver)
+Lager et lite brød, typisk nok for åtte porsjoner brød (16 tynne skiver)
 
 ## Ingredienser
 

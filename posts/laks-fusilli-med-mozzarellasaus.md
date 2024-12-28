@@ -6,7 +6,7 @@ is_draft: false
 data:
   image: placeholder.jpg
 ---
-Brief recipe description. What is the food? How many does it typically feed?
+Lett laksemåltid med grønnsaker og ostesaus til omtrent 3 personer.
 
 ## Ingredienser
 
