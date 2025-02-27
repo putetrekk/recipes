@@ -3,21 +3,21 @@ layout: recipe.liquid
 title: First Post
 is_draft: true
 data:
-  image: /img/placeholder.jpg
+  image: placeholder.jpg
 ---
 Brief recipe description. What is the food? How many does it typically feed?
 
-## Ingredients
+## Ingredienser
 
 - 1 carrot
 - 2 ml water
 - 3 tsp sugar
 
-## Directions
+## Instruksjoner
 
 1. Instruct the reader on how to make the recipe.
 2. Make each direction short and simple.
 
-## Notes
+## Notat
 
 Add any tips, nuances or acknowledgements here.
